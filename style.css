@@ -82,7 +82,7 @@ section {
     margin-bottom: 80px;
     height: 732px;
     justify-content: center;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 h2,
@@ -140,7 +140,7 @@ h1 {
     display: flex;
     flex-direction: column;
     padding: 40px 60px;
-
+    gap: 20px;
 }
 
 .price-text {
@@ -338,10 +338,6 @@ h1 {
         padding: 16px 0;
     }
 
-    #hero .section {
-        padding-top: 20px;
-    }
-
     #prices .section {
         padding-bottom: 20px;
     }
@@ -370,6 +366,7 @@ h1 {
 
     .prices-info {
         padding: 0 40px;
+        gap: 0;
     }
 
     .info {
