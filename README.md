@@ -1,0 +1,1 @@
+Simple landing page done using HTML, CSS, JS

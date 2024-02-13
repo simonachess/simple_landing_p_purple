@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/h-letter.svg">
+  <link rel="stylesheet" href="style.css">
+  <title>Batutų nuoma Žemaitijoje</title>
+  </style>
+</head>
+
+<body>
+  <div class="app">
+    <header id="header">
+      <a href="/">
+        <h1>hobus.lt</h1>
+      </a>
+      <nav>
+        <a class="nav-item" href="#prices">Kainos</a>
+        <a class="nav-item" href="#gallery">Galerija</a>
+        <a class="nav-item" href="#footer">Kontaktai</a>
+      </nav>
+    </header>
+    <section id="hero">
+      <img class="bg-image" src="/images/bg-desktop.svg" />
+      <img class="bg-image-mob" src="/images/bg-mobile.svg" />
+      <div class="section">
+        <div class="left">
+          <img src="/images/batutas-anna.jpg" alt="Batutas Anna" width="562" height="562" />
+        </div>
+        <div class="right">
+          <h2>Batutų nuoma Žemaitijoje</h2>
+          <p>
+            Nuomojame batutus, kad jūsų šventė taptų ne tik įsimintina, bet ir aktyvi. Su mūsų
+            batutais jūsų šventė taps išskirtinė, o vaikai galės smagiai leisti laiką ir išreikšti savo energiją.
+            Suteikite sau ir savo svečiams puikią pramogą!</p>
+          <a href="tel:+37064768414" class="primary-btn"><span class="btn-icon">☎</span><span>Paskambinkite</span></a>
+        </div>
+      </div>
+    </section>
+    <section id="prices">
+      <img class="bg-image" src="/images/bg-desktop.svg" />
+      <img class="bg-image-mob" src="/images/bg-mobile.svg" />
+      <div class="section">
+        <h2>Batutų nuomos kaina</h2>
+        <div class="info">
+          <p>*** Batutas pristatomas sutartą valandą ir turi būti atlaisvintas po 24 valandų, jeigu nesutarta kitaip.
+          </p>
+        </div>
+        <div class="cards">
+          <div class="price-card">
+            <div class="card-title">Telšiuose</div>
+            <div class="prices-info">
+              <div class="price-text"><span>Darbo dienomis</span><span><strong>80eur. </strong>/ para</span></div>
+              <div class="price-text"><span>Savaitgaliais</span><span><strong>100eur. </strong>/ para</span></div>
+            </div>
+          </div>
+          <div class="price-card">
+            <div class="card-title">Už Telšių miesto</div>
+            <div class="prices-info">
+              <div class="price-text"><span>Kaina derinama individualiai priklausomai nuo atstumo</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="button-container">
+          <a href="tel:+37064768414" class="primary-btn"><span class="btn-icon">☎</span><span>Paskambinkite</span></a>
+          <a href="mailto:samogitiagroup@gmail.com" class="primary-btn"><span
+              class="btn-icon">✉</span><span>Parašykite</span></a>
+        </div>
+      </div>
+    </section>
+    <section id="gallery">
+      <img class="bg-image" src="/images/bg-desktop.svg" />
+      <img class="bg-image-mob" src="/images/bg-mobile.svg" />
+      <div class="section">
+        <h2>Galerija</h2>
+        <div class="gallery-container">
+          <img src="/images/batutas-anna.jpg" alt="Batutas Anna" width="360" height="360" />
+          <img src="/images/batutas-inside.jpg" alt="Batutas Anna" width="360" height="360" />
+          <img src="/images/batutas-side.jpg" alt="Batutas Anna" width="360" height="360" />
+          <img src="/images/batutas-inside-2.jpg" alt="Batutas Anna" width="360" height="360" />
+          <img src="/images/batutas-front.jpg" alt="Batutas Anna" width="360" height="360" />
+          <video width="360" height="360" controls>
+            <source src="/images/batutas-anna-resized.mp4" type="video/mp4">
+          </video>
+          <img src="/images/batutas-inside-3.jpg" alt="Batutas Anna" width="360" height="360" />
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <a href="https://www.facebook.com/profile.php?id=100095247892702">
+        <img src="/images/facebook.svg" alt="facebook" width="48" height="48" />
+      </a>
+    </footer>
+  </div>
+  <button class="scroll-to-top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+    <img src="/images/up-arrow.svg" width="16" height="16" alt="arrow-up" /></button>
+  <script>
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      var button = document.querySelector('.scroll-to-top');
+      if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+        button.style.display = "block";
+      } else {
+        button.style.display = "none";
+      }
+    }
+  </script>
+</body>
+
+</html>
